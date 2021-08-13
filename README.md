@@ -5,4 +5,6 @@ My testing clone of Uniswap.
 -for workspace periphery "npm install @uniswap/lib @uniswap/v2-core"
 -for migrator "npm install @openzeppelin/contracts@3.4.1 @uniswap/v2-core"
 
-Periphery migration file (2_deploy_contracts.js) is not fully completed yet. 
+Core and periphery/migrator files are written in different pragma solidity version so different version of @openzeppelin is needed.
+
+Migrator migration file (2_deploy_contracts.js) is not fully completed yet. 
